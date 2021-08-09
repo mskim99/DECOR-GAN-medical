@@ -130,3 +130,7 @@ dmypy.json
 
 data/
 ShapeNetCore.v1/
+data_preparation/90013101/
+data_preparation/90013102/
+data_preparation/build/
+data_preparation/depth_render/

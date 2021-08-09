@@ -17,7 +17,6 @@ target_dir = "./"+class_id+"/"
 obj_names = os.listdir(source_root)
 obj_names = sorted(obj_names)
 
-
 def load_obj(dire):
     fin = open(dire,'r')
     lines = fin.readlines()

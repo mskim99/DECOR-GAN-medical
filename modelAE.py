@@ -64,9 +64,11 @@ class IM_AE(object):
 
 
         if torch.cuda.is_available():
+            print('use GPU')
             self.device = torch.device('cuda')
             torch.backends.cudnn.benchmark = True
         else:
+            print('use CPU')
             self.device = torch.device('cpu')
 
 

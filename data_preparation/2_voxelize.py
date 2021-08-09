@@ -29,7 +29,7 @@ for i in range(len(obj_names)):
     miny = -0.5
     minz = -0.5
 
-    command = "./binvox -bb "+str(minx)+" "+str(miny)+" "+str(minz)+" "+str(maxx)+" "+str(maxy)+" "+str(maxz)+" "+" -d 512 -e "+this_name
+    command = "binvox -bb "+str(minx)+" "+str(miny)+" "+str(minz)+" "+str(maxx)+" "+str(maxy)+" "+str(maxz)+" "+" -d 512 -e "+this_name
 
     os.system(command)
 

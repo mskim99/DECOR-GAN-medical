@@ -28,6 +28,8 @@ start = int(share_id*len(obj_names)/share_total)
 end = int((share_id+1)*len(obj_names)/share_total)
 obj_names = obj_names[start:end]
 
+print(start, end)
+
 def write_ply_triangle(name, vertices, triangles):
 	fout = open(name, 'w')
 	fout.write("ply\n")
